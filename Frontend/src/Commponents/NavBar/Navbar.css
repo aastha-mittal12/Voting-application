@@ -1,0 +1,56 @@
+.nav {
+  background-image: linear-gradient(to right, #FF5733,#FF5733, white,green,green);/* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth effect */
+  }
+  
+  .nav h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Larger font size for the heading */
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin-right: 20px; /* Spacing between navigation links */
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+  }
+  
+  .nav ul li:last-child {
+    margin-right: 0; /* No margin for the last navigation link */
+  }
+  
+  .nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Font size */
+    transition: color 0.3s; /* Smooth transition for color change */
+    
+  }
+  
+  .nav ul li a:hover {
+    color: orange; /* Orange color on hover */
+  }
+  
+  .nav ul li.active a {
+    color: #FFA500; /* Orange color for active link */
+  }
+  
+  .nav ul li.disabled a {
+    color: #CCCCCC; /* Light gray color for disabled link */
+    pointer-events: none; /* Disable pointer events */
+  }
+  

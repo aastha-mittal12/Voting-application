@@ -1,0 +1,51 @@
+.edit-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.edit-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.edit-form input,
+.edit-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.edit-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.edit-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.edit-form input:disabled,
+.edit-form textarea:disabled {
+    background-color: #e9ecef;
+    color: #666;
+    cursor: not-allowed;
+}

@@ -1,0 +1,30 @@
+.container {
+  max-width: 100%;
+  /* Set maximum width for the container */
+  margin: auto;
+  /* Center the container horizontally */
+  height: 100%;
+  position: relative;
+  /* corrected: use semicolon and remove quotes */
+}
+
+.container img {
+  width: 100%;
+  /* Make the image responsive */
+  border-radius: 1px;
+  /* Add a border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add a box shadow for depth */
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-size: 2em;
+  font-weight: bolder;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(24, 4, 91);
+}
